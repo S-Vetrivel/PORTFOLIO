@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": "securemailscope",
+      "title": "SecureMailScope",
+      "subtitle": "AI-Assisted Cryptographic & Mail Security Framework",
+      "description": "High-performance security evaluation framework with Go and Python microservices analyzing cryptographic posture, TLS ciphers, and email infrastructure (SPF, DKIM, DMARC).",
+      "longDescription": "Built an AI-assisted security evaluation framework with a React frontend and high-performance Go and Python microservices to analyze cryptographic posture and surface structured protocol findings. Engineered RESTful APIs to parse network inspection data, validate TLS cipher suites, and audit mail server authentication records. Containerized using Docker with automated structured report generation.",
+      "tech": ["Go", "React", "Python", "Docker", "REST APIs", "Shell"],
+      "liveUrl": "https://sih-2026.duckdns.org/",
+      "githubUrl": "https://github.com/S-Vetrivel/SecureMailScope-SIH",
+      "thumbnail": "",
+      "featured": true,
+      "category": "Security & AI",
+      "metrics": {
+        "score": "A+ Cipher Rating",
+        "speed": "<85ms Analysis",
+        "coverage": "SPF / DKIM / DMARC"
+      }
+    },
+    {
+      "id": "yuva-ctf",
+      "title": "Yuva-CTF Platform",
+      "subtitle": "Real-time Cybersecurity Competition & Telemetry Platform",
+      "description": "Full-stack cybersecurity platform with React.js, Node.js/Express, WebSockets telemetry, dynamic live leaderboards, and isolated Kubernetes/Docker challenge environments.",
+      "longDescription": "Built a full-stack web platform with React.js frontend and Node.js/Express backend integrating REST APIs and real-time WebSocket telemetry for 100+ concurrent users. Engineered dynamic UI screens using React components, HTML5, and CSS3 to visualize live leaderboards, challenge stats, and user profiles. Orchestrated modular backend services and isolated environments with Kubernetes, Docker, and WireGuard/Tailscale VPN gateways.",
+      "tech": ["TypeScript", "React", "Node.js", "Express", "WebSockets", "Docker", "Kubernetes"],
+      "liveUrl": "https://doom.tsrm.in/",
+      "githubUrl": "https://github.com/S-Vetrivel/Yuva-CTF",
+      "thumbnail": "",
+      "featured": true,
+      "category": "Full-Stack System",
+      "metrics": {
+        "concurrency": "100+ Concurrent Hackers",
+        "latency": "Real-Time WebSockets",
+        "infrastructure": "K8s & WireGuard"
+      }
+    }
+  ]
+}
